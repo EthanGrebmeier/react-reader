@@ -12,7 +12,7 @@
   border: 2px solid black;
   width: 35%;
   min-width: 330px;
-  height: 53%;
+  height: 48%;
   position: relative;
   margin-top: 20px;
   padding: 5px;
@@ -22,12 +22,9 @@
   border-radius: 6px;
 }
 
-.reader-input h2{
-  position: absolute;
-  top: 5px;
-}
 
 .text-input{
+  margin-top: 10px;
   border-radius: 6px;
   padding: 5px;
   resize: none;
