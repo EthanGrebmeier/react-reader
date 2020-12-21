@@ -22,7 +22,7 @@ export default class Controls extends React.Component{
                     <button className="controls-button" onClick={this.props.playPausePressed}>
                         {this.props.isReading ? "Pause" : "Play"}
                     </button>
-                    <button className="controls-button" onClick={this.props.resetPressed} >
+                    <button className="controls-button" disabled={this.props.isReading} onClick={this.props.resetPressed} >
                         Reset
                     </button>
                     <button className="controls-button" id="about-open-button" onClick={this.props.toggleAbout}>

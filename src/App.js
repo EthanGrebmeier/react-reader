@@ -61,6 +61,7 @@ function App() {
   }
 
   let resetPressed = () => {
+    console.log("reset")
     clearTimeouts()
     setIsReading(false)
     setWordsArray([])
