@@ -13,13 +13,18 @@
   width: 35%;
   min-width: 330px;
   height: 57%;
+  position: relative;
   margin-top: 20px;
   padding: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 6px;
+}
 
+.reader-input h2{
+  position: absolute;
+  top: 5px;
 }
 
 .text-input{
