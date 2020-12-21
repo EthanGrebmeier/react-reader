@@ -51,4 +51,6 @@
 
 .controls-button:disabled{
     cursor:not-allowed;
+    background-color: rgba(53, 80, 112, .5);
+    text-decoration: line-through;
 }
