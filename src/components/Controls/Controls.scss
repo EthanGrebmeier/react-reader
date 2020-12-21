@@ -1,0 +1,49 @@
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    min-width: 330px;
+    height: 25%;
+    background-color: #E56B6F;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.controls h1{
+    font-size: 48px;
+}
+
+.current-word{
+    height: 50px;
+}
+
+.controls-slider {
+    width: 70%;
+    height: 5px;
+    background-color: #355070;
+}
+
+.controls-slider::-webkit-slider-thumb {
+    color: beige;
+}
+
+.controls-buttons{
+    display: flex;
+    width: 70%;
+    min-width: 330px;
+    justify-content: space-evenly;
+}
+
+.controls-button{
+    width: 30%;
+    height: 35px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
