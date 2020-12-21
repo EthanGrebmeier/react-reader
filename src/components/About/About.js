@@ -29,7 +29,8 @@ function About(props){
             "top" : '10px',
             "right" : '10px',
             "background" : 'transparent',
-            "border" : 'none'
+            "border" : 'none',
+            "cursor" : 'pointer'
         }
     }
 
